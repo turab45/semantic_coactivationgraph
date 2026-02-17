@@ -12,8 +12,9 @@ venv/
 env/
 .venv/
 
-# Results (regenerable)
-results/
+# Results (regenerable)— ignore everything except figures
+results/*
+!results/figures/
 
 # Data (too large for git)
 data/
