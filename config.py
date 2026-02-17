@@ -60,7 +60,7 @@ ALL_LAYERS = [
 # =============================================================
 # HYPERPARAMETERS
 # =============================================================
-NUM_IMAGES      = 500       # Number of COCO images to process
+NUM_IMAGES      = 5000       # Number of COCO images to process
 BATCH_SIZE      = 1         # Forward pass batch size (1 for per-image patch extraction)
 TOP_K_PERCENT   = 0.10      # Top 10% of activation values define the "patch"
 TAU_ASSOC       = 0.1       # Minimum IoU to create neuron→concept edge
